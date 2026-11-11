@@ -34,21 +34,24 @@
 
         header {
             grid-area: header;
-            background-color: blueviolet;
-            height: 150px;
+            background-color: pink;
+            height: 160px;
+            position: sticky; top: 0;
+            border: solid
 
         }
 
         h1 {
             font-size: 40px;
             text-align: center;
-            padding-top: 20px;
+            padding-top: 30px;
+        
 
         }
 
         nav {
             grid-area: nav;
-            background-color: aqua;
+            background-color:white;
             border-radius: 20px;
             height: 100px;
             color: black;
@@ -91,6 +94,7 @@
             grid-area: aside;
             background-color: pink;
             border-radius: 20px;
+         
 
         }
 
@@ -98,6 +102,7 @@
             grid-area: footer;
             background-color: antiquewhite;
             border-radius: 20px;
+            height: 50px;
 
         }
 
@@ -143,8 +148,8 @@
     }
 
     .card {
-        background-color: red;
-        border: 1px solid #ddd;
+        background-color: antiquewhite;
+        border: 3px solid pink;
         border-radius: 8px;
        padding: 1.5rem;
        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
@@ -197,6 +202,23 @@
         <p>card info</p>
       </article>
 
+       <article class="card">
+        <h2>Card 4</h2>
+        <p>card info</p>
+      </article>
+
+       <article class="card">
+        <h2>Card 5</h2>
+        <p>card info</p>
+      </article>
+
+       <article class="card">
+        <h2>Card 6</h2>
+        <p>card info</p>
+      </article>
+
+
+
 
     </main>
    
@@ -205,8 +227,8 @@
     
 
   </main>
-  <aside>...</aside>
-  <footer>...</footer>
+  <aside>Aside info</aside>
+  <footer>The Footer</footer>
 </div>
 </body>
 </html>
